@@ -45,7 +45,7 @@ public class HelloWorldService {
         Iterator<Name> names = nameRepository.findAll().iterator();
         StringBuilder nameString = new StringBuilder();
         while(names.hasNext()){
-        	nameString.append("Hello what time is it? It's " + names.next().getValue() + "<br>");
+        	nameString.append("Hello <strong>BOSS!</strong> what time is it? It's " + names.next().getValue() + "<br>");
         }
         return nameString.toString();
     }
