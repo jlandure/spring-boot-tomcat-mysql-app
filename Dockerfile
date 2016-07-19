@@ -1,4 +1,5 @@
 FROM maven
+MAINTAINER jlandure
 ADD pom.xml /app/
 ADD src/ /app/src/
 WORKDIR /app/
